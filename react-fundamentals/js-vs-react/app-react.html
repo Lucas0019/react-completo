@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App | React</title>
+
+  <!-- Carrega o React, React Dom e Babel -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+</head>
+
+<body>
+
+  <!-- App Contador - React -->
+  <div id="app-react"></div>
+
+  <script type="text/babel">
+  
+    const Comprar = () => {
+      const [contador, setContador] = React.useState(1);
+
+      return (
+        <div>
+          <p>Total: {contador}</p>
+          <p>Preço: R$ {contador * 250}</p>
+          <button onClick={() => setContador(contador + 1)}>Comprar</button>
+        </div>
+      );
+    };
+
+    ReactDOM.render(<Comprar />, document.getElementById('app-react'));
+  </script>
+
+
+</body>
+
+</html>

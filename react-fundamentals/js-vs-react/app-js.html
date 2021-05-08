@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App | JavaScript</title>
+  </head>
+
+  <body>
+
+    <!-- App Contador - JavaScript Vanila -->
+    <div id="app-javascript">
+      <p>Total: <span id="total"></span></p>
+      <p>Preço: R$ <span id="preco"></span></p>
+      <button id="button">Comprar</button>
+    </div>
+
+    <!-- Script -->
+    <script type="application/javascript">
+      const button = document.getElementById("button");
+      const total = document.getElementById("total");
+      const preco = document.getElementById("preco");
+
+      let contador = 1;
+
+      atualizarValores = (contador) => {
+        total.innerText = contador;
+        preco.innerText = contador * 250;
+      }
+      atualizarValores(contador);
+
+      handleClick = () => {
+        contador++ // contador = contador + 1;
+        atualizarValores(contador + 1);
+      }
+
+      button.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>
