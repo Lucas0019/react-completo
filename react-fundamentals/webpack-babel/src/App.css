@@ -1,0 +1,12 @@
+#root {
+  display: flex;
+  justify-content: center;
+  margin: 8em auto;
+}
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: Arial;
+  color: tomato;
+}
