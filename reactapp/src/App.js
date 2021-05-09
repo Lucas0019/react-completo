@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const App = () => {
   return (
-    <div> Code React Template 🔥 </div>
+    <>
+      <div>React App 🔥 - Hands On</div>
+    </>
   );
-}
+};
 
 export default App;
