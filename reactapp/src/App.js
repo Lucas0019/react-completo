@@ -1,9 +1,11 @@
 import React from "react";
+import Arrays from "./Components/JSXArrays/Arrays"
 
 const App = () => {
   return (
     <>
-      <div>React App 🔥 - Hands On</div>
+      <div>JSX Arrays 🔥</div>
+      <Arrays/>
     </>
   );
 };
