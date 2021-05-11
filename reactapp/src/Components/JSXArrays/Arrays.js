@@ -4,7 +4,9 @@ const index = () => {
   // O JSX irá listar cada um dos itens da array.
   // Ele não irá separar ou colocar vírgula,
   // é você que deve modificar a array para o resultado desejado.
-  const filmes = ["Filme1", "Filme2", "Filme3"];
+  const filmes = ["Filme1", "Filme2", "Filme3"]; // Filme1Filme2Filme3
+  const frutas = ['Uva', 'Pera', 'Goiaba', 'Banana', 'Damasco'];
+
 
   // O JSX necessita de uma key única para cada elemento da Array.
   const empresas = [
@@ -26,6 +28,14 @@ const index = () => {
             <li key={filme}>{filme}</li>
           ))}
         </ul>
+     </section>
+
+     <section>
+       <ul>
+         {frutas.map((fruta)=>(
+           <li key={fruta}>{fruta}</li>
+         ))}
+       </ul>
      </section>
     </>
   );

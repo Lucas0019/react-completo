@@ -1,5 +1,5 @@
 import React from "react";
-import Arrays from "./Components/JSXArrays/Arrays"
+import Arrays from "./Components/JSXArrays/ArrayObjetos"
 
 const App = () => {
   return (
