@@ -1,11 +1,20 @@
 import React from "react";
-import Arrays from "./Components/JSXArrays/HandsOn"
+import Header from './Pages/Header';
+import Sobre from './Pages/Sobre';
+import Form from './Pages/Form';
+import Footer from './Pages/Footer';
+
+import Return from "./Components/Interfaces/Return"
 
 const App = () => {
   return (
     <>
-      <div>JSX Arrays - Hands On 🔥</div>
-      <Arrays/>
+      <Header/>
+        <div>Componentes 🔥</div>
+        <Sobre/>
+        <Form/>
+        <Return/>
+      <Footer/>
     </>
   );
 };
