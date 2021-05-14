@@ -1,20 +1,18 @@
 import React from "react";
-import Header from './Pages/Header';
-import Sobre from './Pages/Sobre';
-import Form from './Pages/Form';
-import Footer from './Pages/Footer';
+import Form from "./Components/Props/Form/Form";
+import Header from "./Pages/Header"
 
-import Return from "./Components/Interfaces/Return"
 
 const App = () => {
+
+  const logado = true;
+  const nome = 'Lucas';
+
   return (
     <>
-      <Header/>
-        <div>Componentes 🔥</div>
-        <Sobre/>
-        <Form/>
-        <Return/>
-      <Footer/>
+      <h1>Props 🔥</h1>
+      <Header logado={logado} nome={nome} />
+      <Form/>
     </>
   );
 };
