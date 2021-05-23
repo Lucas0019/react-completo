@@ -1,10 +1,9 @@
 import React from "react"
-import UseState from "./Hooks/UseSate"
+import UseState from "./Components/UseSateProps"
 
 function App() {
   return (
     <>
-      <h1>React Hooks 🔥</h1>
       <UseState/>
     </>
   );
