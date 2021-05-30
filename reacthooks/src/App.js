@@ -1,5 +1,5 @@
 import React from "react"
-import UseState from "./Components/StrictMode"
+import UseState from "./Handson/UseState/UseState"
 
 function App() {
   return (
