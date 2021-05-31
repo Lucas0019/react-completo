@@ -1,10 +1,10 @@
 import React from "react"
-import UseState from "./Handson/UseState/UseState"
+import UseEffect from "./Components/AntesDesmontar"
 
 function App() {
   return (
     <>
-      <UseState/>
+      <UseEffect/>
     </>
   );
 }
