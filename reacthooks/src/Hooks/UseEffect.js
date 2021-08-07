@@ -12,6 +12,7 @@ const UseEffect = () => {
     console.log('Ocorre ao renderizar e ao atualizar 🍻');
     // No useEffect temos um array que passamos as dependencia
     // basicamente, estamos falando que todo item que estiver no array 
+    // será executado quando o componente for montado
     // terá que execultar a função do useEffect denovo quando o mesmo mudar
 
     // Array vazio (Pura) [] => Execulta uma vez a função idependente se o estado mudar
