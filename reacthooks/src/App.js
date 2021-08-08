@@ -1,10 +1,10 @@
 import React from "react"
-import UseRef from "./Components/ReferenciaValues"
+import UseCallback from "./Components/OperacaoUseCallback"
 
 function App() {
   return (
     <>
-      <UseRef/>
+      <UseCallback/>
     </>
   );
 }
