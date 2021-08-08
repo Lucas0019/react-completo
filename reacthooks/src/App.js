@@ -1,5 +1,5 @@
 import React from "react"
-import UseEffect from "./Components/AntesDesmontar"
+import UseEffect from "./Handson/UseEffect/UseEffect"
 
 function App() {
   return (
