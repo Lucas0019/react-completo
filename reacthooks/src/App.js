@@ -1,10 +1,10 @@
 import React from "react"
-import UseEffect from "./Handson/UseEffect/UseEffect"
+import UseRef from "./Components/ReferenciaValues"
 
 function App() {
   return (
     <>
-      <UseEffect/>
+      <UseRef/>
     </>
   );
 }
