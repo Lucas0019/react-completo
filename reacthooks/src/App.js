@@ -1,11 +1,10 @@
 import React from "react"
-import UseCallback from "./Components/OperacaoUseCallback"
+import UseContext from "./Hooks/UseContext";
 
 function App() {
-  return (
-    <>
-      <UseCallback/>
-    </>
+  
+  return (  
+      <UseContext/>
   );
 }
 
