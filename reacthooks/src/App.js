@@ -1,10 +1,10 @@
 import React from "react"
-import UseContext from "./Hooks/UseContext";
+import UseContextGlobal from "./Components/GlobalStorage/GlobalApp";
 
 function App() {
   
   return (  
-      <UseContext/>
+      <UseContextGlobal/>
   );
 }
 
