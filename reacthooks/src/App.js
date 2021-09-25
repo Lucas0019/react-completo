@@ -1,10 +1,9 @@
-import React from "react"
-import CustomHook from "./custom-hooks/CustomAppLocalStorage";
+import RequestData from './Components/RequestData';
 
 function App() {
-  
-  return (  
-      <CustomHook/>
+
+  return (
+    <RequestData />
   );
 }
 
