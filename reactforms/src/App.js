@@ -1,4 +1,4 @@
-import Form from './Components/TextArea';
+import Form from './Components/DiferentesGrupos';
 
 function App() {
   return (
