@@ -1,9 +1,9 @@
-import Form from './Components/DiferentesGrupos';
+import { MultiplosCheckbox } from './Components/MultiplosCheckbox';
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <MultiplosCheckbox/>
     </div>
   );
 }
