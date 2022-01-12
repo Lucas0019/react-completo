@@ -1,9 +1,9 @@
-import { MultiplosCheckbox } from './Components/MultiplosCheckbox';
+import { ChallengeCheckbox } from './Handson/ChallengeCheckbox';
 
 function App() {
   return (
     <div className="App">
-      <MultiplosCheckbox/>
+      <ChallengeCheckbox/>
     </div>
   );
 }
