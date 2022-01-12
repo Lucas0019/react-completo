@@ -1,9 +1,9 @@
-import { ChallengeCheckbox } from './Handson/ChallengeCheckbox';
+import { CustomInput } from './custom/CustomInput';
 
 function App() {
   return (
     <div className="App">
-      <ChallengeCheckbox/>
+      <CustomInput/>
     </div>
   );
 }
