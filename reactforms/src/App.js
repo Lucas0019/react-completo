@@ -1,9 +1,9 @@
-import { CustomSelect } from './custom/CustomSelect';
+import { CustomRadio } from './custom/CustomRadio';
 
 function App() {
   return (
     <div className="App">
-      <CustomSelect/>
+      <CustomRadio/>
     </div>
   );
 }
