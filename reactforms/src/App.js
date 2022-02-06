@@ -1,9 +1,9 @@
-import { CustomInput } from './custom/CustomInput';
+import { CustomSelect } from './custom/CustomSelect';
 
 function App() {
   return (
     <div className="App">
-      <CustomInput/>
+      <CustomSelect/>
     </div>
   );
 }
