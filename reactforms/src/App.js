@@ -1,9 +1,9 @@
-import { CustomRadio } from './custom/CustomRadio';
+import { CustomCheckbox } from './custom/CustomCheckbox';
 
 function App() {
   return (
     <div className="App">
-      <CustomRadio/>
+      <CustomCheckbox/>
     </div>
   );
 }
