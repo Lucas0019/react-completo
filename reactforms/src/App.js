@@ -1,9 +1,9 @@
-import { CustomCheckbox } from './custom/CustomCheckbox';
+import { CustomValidation } from './custom/CustomValidation';
 
 function App() {
   return (
     <div className="App">
-      <CustomCheckbox/>
+      <CustomValidation/>
     </div>
   );
 }
