@@ -1,9 +1,9 @@
-import { CustomValidation } from './custom/CustomValidation';
+import { CustomUseForm } from './custom/CustomUseForm';
 
 function App() {
   return (
     <div className="App">
-      <CustomValidation/>
+      <CustomUseForm/>
     </div>
   );
 }
